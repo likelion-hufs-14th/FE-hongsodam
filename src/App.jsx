@@ -1,12 +1,21 @@
 import './App.css'
+import List from './components/List/list'
 
 function App() {
 
+  let title= "한국외대"
   return (
     <>
-      <h1>안녕하세요</h1>
+      <div className='navbar'>
+        <span className='navbar-title'>{title} 블로그</span>
+      </div>
+
+      <List></List>
+      <List></List>
+      <List></List>
+
+
+
     </>
   )
 }
-
-export default App
