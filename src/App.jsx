@@ -12,6 +12,7 @@ export default function App() {
 
       <List />
       <List />
+      <List/>
 
     </>
   )
