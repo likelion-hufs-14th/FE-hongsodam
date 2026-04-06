@@ -9,3 +9,13 @@
   color: white; /* 글자 색은 하얀색으로 */
   font-size: 20px; /* 글자 크기는 20픽셀로 */
 }
+
+.main-container {
+  display: flex;       
+  justify-content: space-between; 
+  padding: 0px;
+}
+
+.list-container {
+  flex: 1;             
+}

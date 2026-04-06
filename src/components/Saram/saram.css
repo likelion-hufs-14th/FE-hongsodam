@@ -1,0 +1,40 @@
+.user-list {
+  width: 180px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-left: 20px; 
+  height: fit-content;
+  
+}
+
+.user-list-title {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.user-photo {
+  font-size: 20px;
+  background: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 14px;
+}
