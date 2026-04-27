@@ -1,30 +1,11 @@
 import './App.css'
 import List from './components/List'
+import {postData} from './constants/postData.js'
 
 export default function App() {
 
   var title = "LikeLion HUFS";
   
-  let boardList = [
-    {
-      id : 1,
-      title : "안녕하세요. 아기사자입니다.",
-      content : "집에 가고 싶어요. 종강주세요.",
-      date : "2026년 3월 1일"
-    },
-    {
-      id : 2,
-      title : "안녕하세요. 운영진입니다.",
-      content : "저도 집에 가고 싶어요. 종강주세요",
-      date : "2026년 3월 2일"
-    },
-    {
-      id : 3,
-      title : "안녕하세요. 대표입니다.",
-      content : "저는 집에 못 가요. 살려주세요.",
-      date : "2026년 3월 3일"
-    },
-  ]
 
   return (
     <>
@@ -34,12 +15,15 @@ export default function App() {
       </div>
       {/* 글 부분임 */}
 
-      {
-      boardList.map(function(data){
-        return (<List title={data.title} content={data.content} 
-        date={data.date} />) // 엔터 해도 됩니다.
-      })
-      } 
+
+      {postData.map(function (data) {
+        return (
+          <List
+            data={data}
+            key={data.id}
+          />
+        );
+      })}
     </>
   )
 }
