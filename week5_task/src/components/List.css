@@ -2,3 +2,28 @@
   border: 1px solid rgba(0, 45, 86, 1);
   padding: 10px;
 }
+
+.author span:last-child {
+  color: #888;
+  font-size: 13px;
+}
+
+.author {
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+  margin-bottom: 15px;
+}
+
+.title {
+    font-size: 20px
+}
+
+.tags {
+    font-size: 14px;
+    color: #168bab
+}
+
+.name {
+    font-weight: 700;
+}
