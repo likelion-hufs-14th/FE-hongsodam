@@ -6,7 +6,7 @@ export const postData = [
     author: {
       name: "영진",
       role: "멋사 14기 운영진",
-      profileImg: ""
+      profileImg: "/profile.png"
     },
     tags: ["React", "JavaScript", "Frontend"],
     likes: 12,
@@ -19,7 +19,7 @@ export const postData = [
     author: {
       name: "아기사자A",
       role: "14기 아기사자",
-      profileImg: ""
+      profileImg: "/profile.png"
     },
     tags: ["일상", "맛집", "외대"],
     likes: 45,
@@ -32,7 +32,7 @@ export const postData = [
     author: {
       name: "코딩왕",
       role: "14기 아기사자",
-      profileImg: ""
+      profileImg: "/profile.png"
     },
     tags: ["Tips", "Coding", "VSCode"],
     likes: 8,
