@@ -1,3 +1,4 @@
+import LikeButton from './LikeButton/LikeButton';
 import './List.css'
 
 
@@ -27,8 +28,8 @@ export default function List(props) {
           ))}
         </div>
 
-          <p style={{ marginRight: '15px' }}>❤️ {props.data.likes}</p>
           <p className='date'>{props.data.createdAt}</p>
+          <LikeButton/>
 
       </div>
     </>
